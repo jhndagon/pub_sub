@@ -40,10 +40,10 @@ Es ampliamente utilizado en:
 
 ## 📂 Contenido del Proyecto
 
-- 📜 Explicación teórica del patrón.
-- 💻 Ejemplo práctico de implementación en Python.
-- 📊 Presentación en PowerPoint.
-- 🎥 Video explicativo del trabajo.
+Este repositorio contiene **dos implementaciones del patrón Pub/Sub**:
+
+1. ✅ Implementación básica en Python (sin broker externo).
+2. 🐰 Implementación con RabbitMQ utilizando Docker (rama `feature/with-rabbit`).
 
 ---
 
@@ -55,64 +55,89 @@ Repositorio oficial del proyecto:
 
 ---
 
+## 🌿 Versiones Disponibles
+
+### 🔹 Rama principal (`main`)
+Contiene la implementación básica del patrón Pub/Sub en Python, utilizando estructuras internas y simulación asincrónica.
+
+### 🔹 Rama `feature/with-rabbit`
+Contiene una implementación más cercana a un entorno real de producción, utilizando:
+
+- RabbitMQ como broker
+- Docker Compose para levantar el servicio
+- Publisher y Subscriber desacoplados
+- Comunicación real vía AMQP
+
+Para usar esta versión:
+
+```bash
+git checkout feature/with-rabbit
+```
+
+---
+
 ## ⚙️ Requisitos
 
 - Python 3.9 o superior  
-- Git instalado (opcional, si se va a clonar el repositorio)  
-- No requiere librerías externas (solo librerías estándar de Python)
+- Git instalado  
+- (Para la versión con RabbitMQ) Docker y Docker Compose  
 
 ---
 
 ## ▶️ Instrucciones para Ejecutar el Proyecto
 
-### 1️⃣ Clonar el repositorio
+### 🔹 Opción 1 – Implementación Básica (rama `main`)
+
+1️⃣ Clonar el repositorio:
 
 ```bash
 git clone https://github.com/jhndagon/pub_sub.git
 ```
 
-### 2️⃣ Ingresar a la carpeta del proyecto
+2️⃣ Ingresar a la carpeta del proyecto:
 
 ```bash
 cd pub_sub
 ```
 
-### 3️⃣ Verificar versión de Python
-
-```bash
-python --version
-```
-
-o
-
-```bash
-python3 --version
-```
-
-Debe ser 3.9 o superior.
-
-### 4️⃣ Ejecutar el proyecto
+3️⃣ Ejecutar:
 
 ```bash
 python main.py
 ```
 
-Si tu sistema utiliza `python3`:
+---
+
+### 🔹 Opción 2 – Implementación con RabbitMQ (rama `feature/with-rabbit`)
+
+1️⃣ Cambiar a la rama correspondiente:
 
 ```bash
-python3 main.py
+git checkout feature/with-rabbit
 ```
+
+2️⃣ Seguir las instrucciones detalladas en el archivo:
+
+📄 **execution.md**
+
+En ese archivo encontrarás el paso a paso para:
+
+- Levantar RabbitMQ con Docker
+- Instalar dependencias
+- Ejecutar Subscriber
+- Ejecutar Publisher
+- Validar el funcionamiento
 
 ---
 
 ## 🖥️ Resultado Esperado
 
-Al ejecutar el programa, en la consola se mostrará:
+Dependiendo de la implementación utilizada:
 
-- La suscripción de los servicios a un tópico.
-- La publicación de un evento.
-- La recepción del mensaje por cada suscriptor.
-- La ejecución asincrónica de los procesos simulados.
+- Se visualizará la publicación de eventos.
+- Los suscriptores recibirán los mensajes.
+- Se demostrará el desacoplamiento entre componentes.
+- En la versión con RabbitMQ, la comunicación se realiza mediante un broker real.
 
 ---
 
@@ -128,15 +153,11 @@ Al ejecutar el programa, en la consola se mostrará:
 
 ## 📊 Presentación (PPT)
 
-Puedes acceder a la presentación del trabajo en el siguiente enlace:
-
 https://unisabanaedu-my.sharepoint.com/:p:/r/personal/johngoal_unisabana_edu_co/Documents/Patron_Arquitectura_PubSub_ESTILO_limpio.pptx?d=w6f55ce459a8c43408cd595af319a5e4c&csf=1&web=1&e=yH8MDo
 
 ---
 
 ## 🎥 Video Explicativo
-
-El video de sustentación del trabajo está disponible en:
 
 https://drive.google.com/file/d/1aESU8vJhpLyZujbezpB35v53jRGLvz-t/view?usp=drive_link
 

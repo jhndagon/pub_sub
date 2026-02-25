@@ -1,7 +1,7 @@
 import time
 
 from broker import EventBus
-from suscriber import Subscriber
+from subscriber import Subscriber
 from publisher import Publisher
 
 
