@@ -65,54 +65,19 @@ Repositorio oficial del proyecto:
 
 ## ▶️ Instrucciones para Ejecutar el Proyecto
 
-### 1️⃣ Clonar el repositorio
+Las instrucciones detalladas de ejecución se encuentran en el archivo:
 
-```bash
-git clone https://github.com/jhndagon/pub_sub.git
-```
+📄 **execution.md**
 
-### 2️⃣ Ingresar a la carpeta del proyecto
+En este archivo encontrarás:
 
-```bash
-cd pub_sub
-```
+- Cómo clonar el repositorio
+- Cómo verificar requisitos
+- Cómo ejecutar el proyecto paso a paso
+- Resultado esperado en consola
+- Cómo detener correctamente los servicios (si aplica)
 
-### 3️⃣ Verificar versión de Python
-
-```bash
-python --version
-```
-
-o
-
-```bash
-python3 --version
-```
-
-Debe ser 3.9 o superior.
-
-### 4️⃣ Ejecutar el proyecto
-
-```bash
-python main.py
-```
-
-Si tu sistema utiliza `python3`:
-
-```bash
-python3 main.py
-```
-
----
-
-## 🖥️ Resultado Esperado
-
-Al ejecutar el programa, en la consola se mostrará:
-
-- La suscripción de los servicios a un tópico.
-- La publicación de un evento.
-- La recepción del mensaje por cada suscriptor.
-- La ejecución asincrónica de los procesos simulados.
+Por favor, consulta ese archivo para realizar la ejecución completa del sistema.
 
 ---
 
