@@ -41,19 +41,88 @@ Es ampliamente utilizado en:
 ## 📂 Contenido del Proyecto
 
 - 📜 Explicación teórica del patrón.
-- 💻 Ejemplo práctico de implementación.
+- 💻 Ejemplo práctico de implementación en Python.
 - 📊 Presentación en PowerPoint.
 - 🎥 Video explicativo del trabajo.
 
 ---
 
+## 📦 Enlace al Repositorio
+
+Repositorio oficial del proyecto:
+
+🔗 https://github.com/jhndagon/pub_sub
+
+---
+
+## ⚙️ Requisitos
+
+- Python 3.9 o superior  
+- Git instalado (opcional, si se va a clonar el repositorio)  
+- No requiere librerías externas (solo librerías estándar de Python)
+
+---
+
+## ▶️ Instrucciones para Ejecutar el Proyecto
+
+### 1️⃣ Clonar el repositorio
+
+```bash
+git clone https://github.com/jhndagon/pub_sub.git
+```
+
+### 2️⃣ Ingresar a la carpeta del proyecto
+
+```bash
+cd pub_sub
+```
+
+### 3️⃣ Verificar versión de Python
+
+```bash
+python --version
+```
+
+o
+
+```bash
+python3 --version
+```
+
+Debe ser 3.9 o superior.
+
+### 4️⃣ Ejecutar el proyecto
+
+```bash
+python main.py
+```
+
+Si tu sistema utiliza `python3`:
+
+```bash
+python3 main.py
+```
+
+---
+
+## 🖥️ Resultado Esperado
+
+Al ejecutar el programa, en la consola se mostrará:
+
+- La suscripción de los servicios a un tópico.
+- La publicación de un evento.
+- La recepción del mensaje por cada suscriptor.
+- La ejecución asincrónica de los procesos simulados.
+
+---
+
 ## 👥 Integrantes
 
-1. John David Gonzalez Alzate​  
-2. Jorge Rolando Maradey Duran​
-3. Sergio Mauricio Aparicio Hernandez​  
-4. Hernan David Rodriguez Garcia​ 
-5. William Steven Clavijo Valero
+1. John David Gonzalez Alzate  
+2. Jorge Rolando Maradey Duran  
+3. Sergio Mauricio Aparicio Hernandez  
+4. Hernan David Rodriguez Garcia  
+5. William Steven Clavijo Valero  
 
 ---
 
@@ -61,7 +130,7 @@ Es ampliamente utilizado en:
 
 Puedes acceder a la presentación del trabajo en el siguiente enlace:
 
-🔗 [Ver presentación aquí](https://unisabanaedu-my.sharepoint.com/:p:/r/personal/johngoal_unisabana_edu_co/Documents/Patron_Arquitectura_PubSub_ESTILO_limpio.pptx?d=w6f55ce459a8c43408cd595af319a5e4c&csf=1&web=1&e=yH8MDo)
+https://unisabanaedu-my.sharepoint.com/:p:/r/personal/johngoal_unisabana_edu_co/Documents/Patron_Arquitectura_PubSub_ESTILO_limpio.pptx?d=w6f55ce459a8c43408cd595af319a5e4c&csf=1&web=1&e=yH8MDo
 
 ---
 
@@ -69,7 +138,7 @@ Puedes acceder a la presentación del trabajo en el siguiente enlace:
 
 El video de sustentación del trabajo está disponible en:
 
-🔗 [Ver video aquí](https://drive.google.com/file/d/1aESU8vJhpLyZujbezpB35v53jRGLvz-t/view?usp=drive_link)
+https://drive.google.com/file/d/1aESU8vJhpLyZujbezpB35v53jRGLvz-t/view?usp=drive_link
 
 ---
 
